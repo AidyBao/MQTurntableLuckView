@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		536F72F8CC4D52A30DB4BE98 /* Pods_MQTurntableLuckView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1125AD0AD51AD32A219853B3 /* Pods_MQTurntableLuckView.framework */; };
 		7A240A42207F4F8800E726E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A240A41207F4F8800E726E5 /* AppDelegate.m */; };
 		7A240A45207F4F8800E726E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A240A44207F4F8800E726E5 /* ViewController.m */; };
 		7A240A48207F4F8800E726E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A240A46207F4F8800E726E5 /* Main.storyboard */; };
 		7A240A4A207F4F8A00E726E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A240A49207F4F8A00E726E5 /* Assets.xcassets */; };
 		7A240A4D207F4F8A00E726E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A240A4B207F4F8A00E726E5 /* LaunchScreen.storyboard */; };
 		7A240A50207F4F8A00E726E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A240A4F207F4F8A00E726E5 /* main.m */; };
+		7A6A72AD208076F80038A535 /* MQAutoLuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A72AB208076F80038A535 /* MQAutoLuckViewController.m */; };
+		7A6A72AE208076F80038A535 /* MQAutoLuckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A72AC208076F80038A535 /* MQAutoLuckViewController.xib */; };
+		7A6A72B2208077180038A535 /* MQHandLuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A72B0208077180038A535 /* MQHandLuckViewController.m */; };
+		7A6A72B3208077180038A535 /* MQHandLuckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A72B1208077180038A535 /* MQHandLuckViewController.xib */; };
+		7A6A72B6208077310038A535 /* MQAutoLuckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A72B5208077310038A535 /* MQAutoLuckView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1125AD0AD51AD32A219853B3 /* Pods_MQTurntableLuckView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTurntableLuckView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DD2BC36CE901F624CA856B4 /* Pods-MQTurntableLuckView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTurntableLuckView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MQTurntableLuckView/Pods-MQTurntableLuckView.release.xcconfig"; sourceTree = "<group>"; };
+		5B2228EEC49B9CE5D06C9098 /* Pods-MQTurntableLuckView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQTurntableLuckView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MQTurntableLuckView/Pods-MQTurntableLuckView.debug.xcconfig"; sourceTree = "<group>"; };
 		7A240A3D207F4F8800E726E5 /* MQTurntableLuckView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTurntableLuckView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A240A40207F4F8800E726E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A240A41207F4F8800E726E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +35,14 @@
 		7A240A4C207F4F8A00E726E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A240A4E207F4F8A00E726E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A240A4F207F4F8A00E726E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A6A72AA208076F80038A535 /* MQAutoLuckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQAutoLuckViewController.h; sourceTree = "<group>"; };
+		7A6A72AB208076F80038A535 /* MQAutoLuckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQAutoLuckViewController.m; sourceTree = "<group>"; };
+		7A6A72AC208076F80038A535 /* MQAutoLuckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQAutoLuckViewController.xib; sourceTree = "<group>"; };
+		7A6A72AF208077180038A535 /* MQHandLuckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQHandLuckViewController.h; sourceTree = "<group>"; };
+		7A6A72B0208077180038A535 /* MQHandLuckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQHandLuckViewController.m; sourceTree = "<group>"; };
+		7A6A72B1208077180038A535 /* MQHandLuckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQHandLuckViewController.xib; sourceTree = "<group>"; };
+		7A6A72B4208077310038A535 /* MQAutoLuckView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQAutoLuckView.h; sourceTree = "<group>"; };
+		7A6A72B5208077310038A535 /* MQAutoLuckView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQAutoLuckView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +50,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				536F72F8CC4D52A30DB4BE98 /* Pods_MQTurntableLuckView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4576953CDC3E357D9C89AD85 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1125AD0AD51AD32A219853B3 /* Pods_MQTurntableLuckView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		73D42BDC7076AE593CDBD8BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B2228EEC49B9CE5D06C9098 /* Pods-MQTurntableLuckView.debug.xcconfig */,
+				4DD2BC36CE901F624CA856B4 /* Pods-MQTurntableLuckView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7A240A34207F4F8800E726E5 = {
 			isa = PBXGroup;
 			children = (
 				7A240A3F207F4F8800E726E5 /* MQTurntableLuckView */,
 				7A240A3E207F4F8800E726E5 /* Products */,
+				73D42BDC7076AE593CDBD8BC /* Pods */,
+				4576953CDC3E357D9C89AD85 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +99,7 @@
 				7A240A41207F4F8800E726E5 /* AppDelegate.m */,
 				7A240A43207F4F8800E726E5 /* ViewController.h */,
 				7A240A44207F4F8800E726E5 /* ViewController.m */,
+				7A6A72A6208076D50038A535 /* Class */,
 				7A240A46207F4F8800E726E5 /* Main.storyboard */,
 				7A240A49207F4F8A00E726E5 /* Assets.xcassets */,
 				7A240A4B207F4F8A00E726E5 /* LaunchScreen.storyboard */,
@@ -71,6 +109,45 @@
 			path = MQTurntableLuckView;
 			sourceTree = "<group>";
 		};
+		7A6A72A6208076D50038A535 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A72A7208076D50038A535 /* Controller */,
+				7A6A72A8208076D50038A535 /* Modle */,
+				7A6A72A9208076D50038A535 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7A6A72A7208076D50038A535 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A72AA208076F80038A535 /* MQAutoLuckViewController.h */,
+				7A6A72AB208076F80038A535 /* MQAutoLuckViewController.m */,
+				7A6A72AC208076F80038A535 /* MQAutoLuckViewController.xib */,
+				7A6A72AF208077180038A535 /* MQHandLuckViewController.h */,
+				7A6A72B0208077180038A535 /* MQHandLuckViewController.m */,
+				7A6A72B1208077180038A535 /* MQHandLuckViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A6A72A8208076D50038A535 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		7A6A72A9208076D50038A535 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A6A72B4208077310038A535 /* MQAutoLuckView.h */,
+				7A6A72B5208077310038A535 /* MQAutoLuckView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7A240A53207F4F8A00E726E5 /* Build configuration list for PBXNativeTarget "MQTurntableLuckView" */;
 			buildPhases = (
+				33A7E186BE30EDFE9002B89C /* [CP] Check Pods Manifest.lock */,
 				7A240A39207F4F8800E726E5 /* Sources */,
 				7A240A3A207F4F8800E726E5 /* Frameworks */,
 				7A240A3B207F4F8800E726E5 /* Resources */,
+				0F2663F8ECF319EB108D6808 /* [CP] Embed Pods Frameworks */,
+				A53255363D2D4F12BB0A83BF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,19 +210,78 @@
 			files = (
 				7A240A4D207F4F8A00E726E5 /* LaunchScreen.storyboard in Resources */,
 				7A240A4A207F4F8A00E726E5 /* Assets.xcassets in Resources */,
+				7A6A72AE208076F80038A535 /* MQAutoLuckViewController.xib in Resources */,
+				7A6A72B3208077180038A535 /* MQHandLuckViewController.xib in Resources */,
 				7A240A48207F4F8800E726E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F2663F8ECF319EB108D6808 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MQTurntableLuckView/Pods-MQTurntableLuckView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MQTurntableLuckView/Pods-MQTurntableLuckView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A7E186BE30EDFE9002B89C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQTurntableLuckView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53255363D2D4F12BB0A83BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MQTurntableLuckView/Pods-MQTurntableLuckView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7A240A39207F4F8800E726E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A6A72B6208077310038A535 /* MQAutoLuckView.m in Sources */,
 				7A240A45207F4F8800E726E5 /* ViewController.m in Sources */,
 				7A240A50207F4F8A00E726E5 /* main.m in Sources */,
+				7A6A72AD208076F80038A535 /* MQAutoLuckViewController.m in Sources */,
+				7A6A72B2208077180038A535 /* MQHandLuckViewController.m in Sources */,
 				7A240A42207F4F8800E726E5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,6 +420,7 @@
 		};
 		7A240A54207F4F8A00E726E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B2228EEC49B9CE5D06C9098 /* Pods-MQTurntableLuckView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +438,7 @@
 		};
 		7A240A55207F4F8A00E726E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DD2BC36CE901F624CA856B4 /* Pods-MQTurntableLuckView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

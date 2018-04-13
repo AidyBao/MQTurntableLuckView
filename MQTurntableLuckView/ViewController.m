@@ -7,16 +7,25 @@
 //
 
 #import "ViewController.h"
+#import "MQAutoLuckViewController.h"
+#import "MQHandLuckViewController.h"
 
-@interface ViewController ()
-
-@end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+}
+
+- (IBAction)autoBtnAction:(id)sender {
+    MQAutoLuckViewController * vc = [[MQAutoLuckViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (IBAction)handleBtnAction:(id)sender {
+    MQHandLuckViewController * vc = [[MQHandLuckViewController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 
@@ -24,6 +33,5 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
 
 @end
