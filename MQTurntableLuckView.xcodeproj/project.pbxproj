@@ -14,6 +14,10 @@
 		7A240A4A207F4F8A00E726E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A240A49207F4F8A00E726E5 /* Assets.xcassets */; };
 		7A240A4D207F4F8A00E726E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A240A4B207F4F8A00E726E5 /* LaunchScreen.storyboard */; };
 		7A240A50207F4F8A00E726E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A240A4F207F4F8A00E726E5 /* main.m */; };
+		7A3D755520882B4B00F7FC42 /* MQLotteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D755320882B4B00F7FC42 /* MQLotteryViewController.swift */; };
+		7A3D755620882B4B00F7FC42 /* MQLotteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A3D755420882B4B00F7FC42 /* MQLotteryViewController.xib */; };
+		7A3D755A20882BAD00F7FC42 /* ZXDrawPrizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D755820882BAD00F7FC42 /* ZXDrawPrizeView.swift */; };
+		7A3D755B20882BAD00F7FC42 /* ZXSectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3D755920882BAD00F7FC42 /* ZXSectorModel.swift */; };
 		7A6A72AD208076F80038A535 /* MQAutoLuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A72AB208076F80038A535 /* MQAutoLuckViewController.m */; };
 		7A6A72AE208076F80038A535 /* MQAutoLuckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A6A72AC208076F80038A535 /* MQAutoLuckViewController.xib */; };
 		7A6A72B2208077180038A535 /* MQHandLuckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A6A72B0208077180038A535 /* MQHandLuckViewController.m */; };
@@ -35,6 +39,11 @@
 		7A240A4C207F4F8A00E726E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A240A4E207F4F8A00E726E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A240A4F207F4F8A00E726E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A3D755220882B4B00F7FC42 /* MQTurntableLuckView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MQTurntableLuckView-Bridging-Header.h"; sourceTree = "<group>"; };
+		7A3D755320882B4B00F7FC42 /* MQLotteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQLotteryViewController.swift; sourceTree = "<group>"; };
+		7A3D755420882B4B00F7FC42 /* MQLotteryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQLotteryViewController.xib; sourceTree = "<group>"; };
+		7A3D755820882BAD00F7FC42 /* ZXDrawPrizeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXDrawPrizeView.swift; sourceTree = "<group>"; };
+		7A3D755920882BAD00F7FC42 /* ZXSectorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSectorModel.swift; sourceTree = "<group>"; };
 		7A6A72AA208076F80038A535 /* MQAutoLuckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MQAutoLuckViewController.h; sourceTree = "<group>"; };
 		7A6A72AB208076F80038A535 /* MQAutoLuckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQAutoLuckViewController.m; sourceTree = "<group>"; };
 		7A6A72AC208076F80038A535 /* MQAutoLuckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MQAutoLuckViewController.xib; sourceTree = "<group>"; };
@@ -109,6 +118,15 @@
 			path = MQTurntableLuckView;
 			sourceTree = "<group>";
 		};
+		7A3D755720882BAD00F7FC42 /* ZXDrawPrizeView */ = {
+			isa = PBXGroup;
+			children = (
+				7A3D755820882BAD00F7FC42 /* ZXDrawPrizeView.swift */,
+				7A3D755920882BAD00F7FC42 /* ZXSectorModel.swift */,
+			);
+			path = ZXDrawPrizeView;
+			sourceTree = "<group>";
+		};
 		7A6A72A6208076D50038A535 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +146,9 @@
 				7A6A72AF208077180038A535 /* MQHandLuckViewController.h */,
 				7A6A72B0208077180038A535 /* MQHandLuckViewController.m */,
 				7A6A72B1208077180038A535 /* MQHandLuckViewController.xib */,
+				7A3D755320882B4B00F7FC42 /* MQLotteryViewController.swift */,
+				7A3D755420882B4B00F7FC42 /* MQLotteryViewController.xib */,
+				7A3D755220882B4B00F7FC42 /* MQTurntableLuckView-Bridging-Header.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -142,6 +163,7 @@
 		7A6A72A9208076D50038A535 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7A3D755720882BAD00F7FC42 /* ZXDrawPrizeView */,
 				7A6A72B4208077310038A535 /* MQAutoLuckView.h */,
 				7A6A72B5208077310038A535 /* MQAutoLuckView.m */,
 			);
@@ -182,6 +204,7 @@
 				TargetAttributes = {
 					7A240A3C207F4F8800E726E5 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -208,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3D755620882B4B00F7FC42 /* MQLotteryViewController.xib in Resources */,
 				7A240A4D207F4F8A00E726E5 /* LaunchScreen.storyboard in Resources */,
 				7A240A4A207F4F8A00E726E5 /* Assets.xcassets in Resources */,
 				7A6A72AE208076F80038A535 /* MQAutoLuckViewController.xib in Resources */,
@@ -278,11 +302,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A6A72B6208077310038A535 /* MQAutoLuckView.m in Sources */,
+				7A3D755520882B4B00F7FC42 /* MQLotteryViewController.swift in Sources */,
 				7A240A45207F4F8800E726E5 /* ViewController.m in Sources */,
 				7A240A50207F4F8A00E726E5 /* main.m in Sources */,
 				7A6A72AD208076F80038A535 /* MQAutoLuckViewController.m in Sources */,
+				7A3D755A20882BAD00F7FC42 /* ZXDrawPrizeView.swift in Sources */,
 				7A6A72B2208077180038A535 /* MQHandLuckViewController.m in Sources */,
 				7A240A42207F4F8800E726E5 /* AppDelegate.m in Sources */,
+				7A3D755B20882BAD00F7FC42 /* ZXSectorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,6 +450,7 @@
 			baseConfigurationReference = 5B2228EEC49B9CE5D06C9098 /* Pods-MQTurntableLuckView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = MQTurntableLuckView/Info.plist;
@@ -432,6 +460,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MQ.MQTurntableLuckView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MQTurntableLuckView/Class/Controller/MQTurntableLuckView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -441,6 +472,7 @@
 			baseConfigurationReference = 4DD2BC36CE901F624CA856B4 /* Pods-MQTurntableLuckView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H4384M9Z5J;
 				INFOPLIST_FILE = MQTurntableLuckView/Info.plist;
@@ -450,6 +482,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.MQ.MQTurntableLuckView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MQTurntableLuckView/Class/Controller/MQTurntableLuckView-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

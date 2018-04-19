@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "MQAutoLuckViewController.h"
 #import "MQHandLuckViewController.h"
-
+#import "MQTurntableLuckView-Swift.h"
 
 @implementation ViewController
 
@@ -22,6 +22,12 @@
     MQAutoLuckViewController * vc = [[MQAutoLuckViewController alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
 }
+- (IBAction)auto2Action:(UIButton *)sender {
+    
+    [self.navigationController pushViewController:[[MQLotteryViewController alloc]init] animated:true];
+}
+
+
 
 - (IBAction)handleBtnAction:(id)sender {
     MQHandLuckViewController * vc = [[MQHandLuckViewController alloc] init];
